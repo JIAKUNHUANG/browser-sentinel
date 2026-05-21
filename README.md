@@ -11,7 +11,7 @@ One playful dashboard for the four things your browser hides from you:
 [![Platform](https://img.shields.io/badge/platform-Chrome%20MV3-1E293B)](#)
 [![License](https://img.shields.io/badge/license-MIT-64748B)](#)
 
-🌐 **[Landing page](https://browsersentinel.app)** &nbsp;·&nbsp; ⭐ Coming soon to the Chrome Web Store
+🌐 **[Landing page](https://jiakunhuang.github.io/browser-sentinel/)** &nbsp;·&nbsp; ⭐ Coming soon to the Chrome Web Store
 
 </div>
 
