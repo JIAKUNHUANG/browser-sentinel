@@ -59,7 +59,7 @@ one-click fix for everything it finds.
 
 ## 📬 Stay in the loop
 
-Want to know when it ships? Email **hello@browsersentinel.app** or watch this repo.
+Want to know when it ships? Email **jiakunhuang@hotmail.com** or watch this repo.
 
 ---
 
