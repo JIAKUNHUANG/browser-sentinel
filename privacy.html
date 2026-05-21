@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Browser Sentinel</title>
+<meta name="description" content="Privacy Policy for the Browser Sentinel Chrome extension.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#070D1A;--text:#EAF1F8;--muted:#8A99AF;--green:#10B981;--line:rgba(255,255,255,.08);--card:#0F1B2E}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--text);font-family:"DM Sans",sans-serif;line-height:1.75;-webkit-font-smoothing:antialiased}
+  body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;background:radial-gradient(800px 400px at 80% -10%,rgba(16,185,129,.12),transparent 60%)}
+  .wrap{max-width:760px;margin:0 auto;padding:0 24px;position:relative;z-index:1}
+  nav{display:flex;align-items:center;justify-content:space-between;padding:26px 0;border-bottom:1px solid var(--line)}
+  .brand{display:flex;align-items:center;gap:11px;font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:18px;text-decoration:none;color:var(--text)}
+  .shield{width:28px;height:28px;display:grid;place-items:center;border-radius:8px;background:rgba(16,185,129,.14);border:1px solid rgba(16,185,129,.35)}
+  .shield svg{width:15px;height:15px}
+  .back{color:var(--muted);text-decoration:none;font-size:14px;font-family:"JetBrains Mono",monospace}
+  .back:hover{color:var(--green)}
+  header{padding:60px 0 30px}
+  h1{font-family:"Bricolage Grotesque",sans-serif;font-weight:700;font-size:clamp(32px,6vw,46px);letter-spacing:-.02em}
+  .updated{margin-top:12px;color:var(--muted);font-family:"JetBrains Mono",monospace;font-size:13px}
+  .intro{margin-top:22px;color:var(--muted);font-size:17px}
+  main{padding-bottom:80px}
+  h2{font-family:"Bricolage Grotesque",sans-serif;font-weight:600;font-size:22px;letter-spacing:-.01em;margin:42px 0 14px;padding-top:8px}
+  p{color:#C2CDDB;margin:0 0 14px}
+  ul{margin:0 0 14px;padding-left:22px;color:#C2CDDB}
+  li{margin:8px 0}
+  strong{color:var(--text)}
+  a{color:var(--green)}
+  .note{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--green);border-radius:10px;padding:16px 18px;margin:22px 0;color:var(--muted);font-size:14.5px}
+  .tag{display:inline-block;background:rgba(245,158,11,.14);color:#F59E0B;font-family:"JetBrains Mono",monospace;font-size:11px;padding:1px 7px;border-radius:5px;border:1px solid rgba(245,158,11,.3)}
+  footer{border-top:1px solid var(--line);padding:30px 0 60px;color:var(--muted);font-size:13px;font-family:"JetBrains Mono",monospace}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav>
+    <a class="brand" href="index.html">
+      <span class="shield"><svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>
+      Browser Sentinel
+    </a>
+    <a class="back" href="index.html">← Back</a>
+  </nav>
+
+  <header>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: <span class="tag">FILL IN DATE</span></p>
+    <p class="intro">Browser Sentinel is built around a simple idea: the data about your browser belongs to you. This policy explains what the extension does and does not collect.</p>
+  </header>
+
+  <main>
+    <div class="note">⚠️ <strong>Template notice (delete before publishing):</strong> This is a starting template, not legal advice. Replace every <span class="tag">FILL IN</span> marker, and adjust the wording to match exactly how your final build behaves. If you serve EU/UK users or process payments, consider having it reviewed.</div>
+
+    <h2>1. Who we are</h2>
+    <p>Browser Sentinel ("we", "us", the "Extension") is an independent product developed by <span class="tag">YOUR NAME / ENTITY</span>. You can reach us at <a href="mailto:hello@browsersentinel.app">hello@browsersentinel.app</a>.</p>
+
+    <h2>2. Our core principle: local-first</h2>
+    <p>The Extension's monitoring features — resource usage, trackers, traffic, and network timing — are processed <strong>locally in your browser</strong>. This data is stored on your device (via IndexedDB) and is <strong>not transmitted to our servers</strong>.</p>
+
+    <h2>3. What stays on your device</h2>
+    <ul>
+      <li>Per-tab resource estimates (CPU, memory, battery)</li>
+      <li>Trackers detected on the pages you visit, and your block/allow lists</li>
+      <li>Traffic and bandwidth statistics</li>
+      <li>Network timing and page-load measurements</li>
+      <li>Your settings, thresholds, and history</li>
+    </ul>
+    <p>You can clear all of this at any time from the Extension's settings, or by removing the Extension.</p>
+
+    <h2>4. What we do receive</h2>
+    <p>We only receive data when you actively use a feature that requires our backend:</p>
+    <ul>
+      <li><strong>Pro license verification.</strong> If you purchase Pro, we receive and store your license key and the email associated with the purchase, in order to validate and restore your license.</li>
+      <li><strong>AI quips (optional).</strong> If you use the AI summary feature, anonymized, aggregated metrics (such as a health score) may be sent to generate a one-line comment. We do not send your browsing history or the contents of pages.</li>
+      <li><strong>Active speed test (optional).</strong> If you tap the manual speed test, a request is made to a third-party speed-test endpoint. This is never triggered automatically.</li>
+    </ul>
+
+    <h2>5. Payments</h2>
+    <p>Purchases are handled by our payment processor, <span class="tag">e.g. LemonSqueezy</span>. We do not see or store your full card details. Their handling of your payment information is governed by their own privacy policy.</p>
+
+    <h2>6. Advertising (free version)</h2>
+    <p>The free version may display ads served by <span class="tag">AD PROVIDER, e.g. EthicalAds</span>. Where used, we aim to choose privacy-respecting providers that do not build personal profiles. The Pro version contains no ads.</p>
+
+    <h2>7. What we never do</h2>
+    <ul>
+      <li>We do not sell your data.</li>
+      <li>We do not collect the content of the pages you visit.</li>
+      <li>We do not track your browsing history on our servers.</li>
+      <li>We do not collect facial images, biometric data, or sensitive financial identifiers.</li>
+    </ul>
+
+    <h2>8. Permissions we request</h2>
+    <p>Chrome requires certain permissions for the Extension to function (for example, reading tab information and observing network requests). Each permission is used only to power the monitoring features described above, and is explained during onboarding.</p>
+
+    <h2>9. Your rights</h2>
+    <p>You can delete all local data from the Extension's settings at any time. To request deletion of any license/email record held on our servers, email us at <a href="mailto:hello@browsersentinel.app">hello@browsersentinel.app</a> and we will action it within a reasonable period.</p>
+
+    <h2>10. Children</h2>
+    <p>The Extension is not directed at children under <span class="tag">13/16, per your jurisdiction</span>, and we do not knowingly collect their data.</p>
+
+    <h2>11. Changes</h2>
+    <p>We may update this policy as the product evolves. Material changes will be reflected by the "Last updated" date above.</p>
+
+    <h2>12. Contact</h2>
+    <p>Questions about this policy? Email <a href="mailto:hello@browsersentinel.app">hello@browsersentinel.app</a>.</p>
+  </main>
+
+  <footer>© 2026 Browser Sentinel · Independent project, not affiliated with Google LLC.</footer>
+</div>
+</body>
+</html>
